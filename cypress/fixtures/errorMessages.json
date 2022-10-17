@@ -1,0 +1,7 @@
+{
+    "nameFieldError": "Name is mandatory",
+    "emailFieldError": "Email is mandatory",
+    "commentFieldError": "Comment is mandatory",
+    "phoneFieldError": "Phone is mandatory"
+  }
+  
