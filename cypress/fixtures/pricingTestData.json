@@ -1,0 +1,13 @@
+
+{   
+    "pricingTitle": "Lodgify Pricing",
+    "starterRate": "64",
+    "professionalRate": "375",
+    "ultimateRate": "525",
+    "usd":"$",
+    "eur":"€",
+    "gbp":"£",
+    "usdTxt": "usd",
+    "eurTxt":"eur",
+    "gbpTxt":"gbp"
+}

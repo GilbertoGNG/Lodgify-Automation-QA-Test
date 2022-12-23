@@ -1,0 +1,13 @@
+{
+    "contactTitle": "Contact",
+    "randomText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "mandatoryName":"Name is mandatory",
+    "inputFieldsBorderColor":"rgb(208, 2, 27)",
+    "mandatoryEmail":"Email is mandatory",
+    "mandatoryComment":"Comment is mandatory",
+    "mandatoryPhone":"Phone is mandatory",
+    "userName": "John",
+    "userEmail":"johndoelodgify@yopmail.com",
+    "userPhoneNumber":"78767878",
+    "successMessage":"Your request has been sent successfully."
+}
