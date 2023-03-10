@@ -6,7 +6,8 @@
   "author": "Lodgify QA Team",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.6.0"
+    "cypress": "^12.6.0",
+    "moment": "^2.29.4"
   },
   "scripts": {
     "cy:open": "npx cypress open",

@@ -1,6 +1,7 @@
+/// <reference types="Cypress" />
 const { PricingPage } = require("../pages/PricingPage");
 
-const pricingPage = new PricingPage();
+const pricingPage = new PricingPage("https://www.lodgify.com/pricing/");
 
 describe("Pricing page", () => {
   beforeEach("login before each test", () => {

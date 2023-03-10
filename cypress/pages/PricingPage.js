@@ -1,11 +1,8 @@
-export class PricingPage {
-  url = "https://www.lodgify.com/pricing/";
+/// <reference types="Cypress" />
 
-  open() {
-    cy.visit(this.url);
-    return this;
-  }
+import { BasePage } from "./BasePage";
 
+export class PricingPage extends BasePage {
   get numOfRentalsInput() {
     return cy.get("#scroll-prop-plan");
   }
@@ -19,7 +16,7 @@ export class PricingPage {
       const $ = window.jQuery; // An instance of jQuery that is extended with a slider
       cy.get("#scroll-prop-plan").then((input) => {
         let slider = $(input).slider();
-        slider.slider("setValue", value).trigger('change')
+        slider.slider("setValue", value).trigger("change");
       });
     });
   }
