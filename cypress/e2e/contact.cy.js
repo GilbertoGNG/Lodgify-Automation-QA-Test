@@ -26,18 +26,6 @@ const assertRequiredFieldMessages = () => {
   contactPage.sendButton.should("be.disabled");
 };
 
-const selectNextYear = () => {
-  const nextYear = moment().year() + 1;
-  cy.get('.CalendarMonth_1[data-visible="true"] > div')
-    .last()
-    .then((monthTitle) => {
-      if (!monthTitle.text().includes(nextYear)) {
-        contactPage.selectNextMonth();
-        selectNextYear();
-      }
-    });
-};
-
 describe("Contact page", () => {
   beforeEach(() => {
     contactPage.open();

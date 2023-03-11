@@ -9,7 +9,7 @@ describe("Pricing page", () => {
     pricingPage.open();
   });
 
-  it.only("Should have the relevant prices when moving a toggle", () => {
+  it("Should have the relevant prices when moving a toggle", () => {
     // Although, if prices change frequently, it's better not to hardcode the values within the UI tests
     // but to make a request to API in order to take the actual values and compare those to the UI.
     // Finally, it's also possible to create fixtures for the data consistency.
