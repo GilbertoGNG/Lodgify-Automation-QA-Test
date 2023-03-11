@@ -1,0 +1,37 @@
+{
+  "roomID": "503686",
+  "name": "First rental",
+  "guests": 4,
+  "summary": "Quick summary",
+  "location": "Barcelona, Spain",
+  "checkIn": "12:00 AM (midnight)",
+  "checkOut": "12:00 AM (midnight)",
+  "policy": [
+    {
+      "title": "Payment Schedule",
+      "notes": [
+        "50% due at time of booking.",
+        "Remaining balance due 7 days before arrival."
+      ]
+    },
+    {
+      "title": "Cancellation Policy",
+      "notes": [
+        "All paid prepayments are non-refundable."
+      ]
+    },
+    {
+      "title": "Damage deposit",
+      "notes": [
+        "No damage deposit is due."
+      ]
+    }
+  ],
+  "currency": "USD",
+  "rates": [
+    {
+      "name": "Default Rate",
+      "dailyPrice": 100
+    }
+  ]
+}
