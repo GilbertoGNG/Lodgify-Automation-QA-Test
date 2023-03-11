@@ -5,8 +5,8 @@ const pricingPage = new PricingPage("https://www.lodgify.com/pricing/");
 
 describe("Pricing page", () => {
   beforeEach("login before each test", () => {
-    cy.setCookie("OptanonAlertBoxClosed", new Date().toISOString());
-    pricingPage.open();
+      pricingPage.open();
+      cy.setCookie("OptanonAlertBoxClosed", new Date().toISOString());
   });
 
   it("Should have the relevant prices when moving a toggle", () => {
